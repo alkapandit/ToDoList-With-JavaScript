@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(#95025e, #f9c929);
+}
+.container {
+  width: 400px;
+  padding-bottom: 20%;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: whitesmoke;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+.todo li {
+  background: #011a27;
+  font-size: 1.2em;
+  border: none;
+}
+.delete {
+  cursor: pointer;
+}
+.filtered {
+  display: none !important;
+}
